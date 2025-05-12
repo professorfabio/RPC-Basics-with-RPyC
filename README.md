@@ -9,8 +9,8 @@ It consists of a server that exposes two remotely accessible procedures used to 
 
 Do the following on two different machines (AWS EC2 instances)
 
-  sudo apt update
-  sudo apt install python3-rpyc
+    sudo apt update
+    sudo apt install python3-rpyc
 
 ### Then edit the constRPYC.py file to use the IP address of the machine where you will run the server:
 
@@ -18,13 +18,13 @@ Also make sure it is using one of the ports left open for incoming TCP connectio
 
 ### Then run the server on one machine
 
-  python3 server.py
+    python3 server.py
 
 (and leave it running)
 
 ### Then run the client on the other machine
 
-  python3 client.py
+    python3 client.py
 
 ### Now add other remote procedures to the server and change the client to test them
 
