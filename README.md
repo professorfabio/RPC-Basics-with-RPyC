@@ -9,7 +9,7 @@ It consists of a server that exposes two remotely accessible procedures used to 
 
 ### Before running the example, you need to install the RPyC library:
 
-Do the following on two different machines (AWS EC2 instances)
+Do the following on the two machines (AWS EC2 instances) that you will use for this activity:
 
     sudo apt update
     sudo apt install python3-rpyc
